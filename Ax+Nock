@@ -21,4 +21,4 @@
 
  10  Symbols have no other semantics.                                            *u*  ^v^ 'w'
 
- 11  The lemmas are reduced in ordinary arithmetic; c and d refer to atoms.
+ 11  The lemmas are reduced in ordinary arithmetic; c and d refer to atoms.     Ξ [a 13 b]  →  Ξ [a b]  →  [c d]  →  c + d 
