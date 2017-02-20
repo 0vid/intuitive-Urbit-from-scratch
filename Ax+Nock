@@ -41,8 +41,8 @@
                                        14 15 
                          ..     ..  ..  ..
 
-?[a b]           0                                        0 is a cell, a pair of nouns,[a b], which is an undefined reduction, ?
-?a               1                                        1 is a, which is an undefined reduction, ?                                         
+?[a b]           0                                        0 is a cell, a pair of nouns,[a b]
+?a               1                                        1 is a, which is                                         
 +[a b]           +[a b]                                   now nock is accumulating,incrementing itself
 +a               1 + a
 =[a a]           0
