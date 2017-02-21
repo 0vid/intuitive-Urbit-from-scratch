@@ -37,7 +37,7 @@
  / is (slot).Slot is a |tree| addressing operator. Anything to the left of the statement inside a slot is n, right is 2n+1
                          1
                      2       3
-               (slot)   5  6   7
+                   4   5   6   7
                              14 15 
                             . . . . 
 
