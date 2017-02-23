@@ -1,3 +1,5 @@
+"A universal wave that erases the self-portrait of man dawn in sand, inhumanism is a vector of revision." - Reza Negarestani
+
  Ax
  
  0   A noun is either an atom or a cell. An atom is any natural number.   atom/noun|      [1,2,3,4,5,6,7,8,9,10,11..]
@@ -10,7 +12,7 @@
 
  4  `→`  shows the steps of such a reduction. All must be completed.              →|      Ξ [a 1 0 n]  → n + 1 
 
- 5  `?`  means the reduction is undefined.                                        ?|      a -> ? -> b 
+ 5  `?`  means the reduction is undefined.                                        ?|      Ξ [a 2 0] →  ?
 
  6  `:=` indicates a noun is the referent of a symbol.                           :=|      ~(1..256) := *    
 
@@ -25,10 +27,9 @@
  11  The lemmas are reduced in ordinary arithmetic; c and d refer to atoms.               Ξ [a 13 b]  →  Ξ [a b]  →  [c d]  →  c + d 
  
  Nock
- Remember, Hoon, compiles itself to Nock, so there may be cross-terminology in this section. It will tried to be explained minimally.
- Also Nock is different than Ax, however, Ax helps understand Nock
- mini-glossary:
- 
+ Remember, Hoon, compiles itself to Nock, so there may be cross-terminology in this section.
+ Also Nock is different than Ax, however, Ax helps understand Nock, conceptually, syntax not as much so.
+ The following should be considered a
  
  Preamble on operators in Nock
  ?[x] is 0 if x is cell, 1 if atom
@@ -41,7 +42,7 @@
                              14 15 
                             . . . . 
 
-?[a b]           0                                        0 is a cell, a pair of nouns,[a b]
+?[a b]           0                                        0 is a cell, (paired nouns) this is a bottom in formal logic. ? is defined
 ?a               1                                        1 is a, which is an atom                                        
 +[a b]           +[a b]                                   attempting to increment a cell crashes, infinite loop
 +a               1 + a                                    +a is 1 + a is 2
