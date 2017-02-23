@@ -1,7 +1,7 @@
 # Ax and Nock: Cellular Automatons
 
 ### "A universal wave that erases the self-portrait of man drawn in sand,
-inhumanism is a vector of revision." - Reza Negarestani
+## inhumanism is a vector of revision." - Reza Negarestani
 
 ## Ax
 ``` 
